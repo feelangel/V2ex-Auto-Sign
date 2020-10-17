@@ -28,8 +28,8 @@ jobs:
                 sckey: ${{ secrets.sckey }}
             - name: Upload to this repo
               run: |
-                git config --global user.name "wenmoux"
-                git config --global user.email "wenmoux@gmail.com.com" 
+                git config --global user.name "feelangel"
+                git config --global user.email "164179535@qq.com" 
                 git add . 
                 git commit -m 'upload 签到结果'  
                 git push -u origin master
