@@ -30,6 +30,7 @@ jobs:
               run: |
                 git config --global user.name "feelangel"
                 git config --global user.email "164179535@qq.com" 
+                git config --global user.email "cnbyfeel@163.com"
                 git add . 
                 git commit -m 'upload 签到结果'  
                 git push -u origin master
